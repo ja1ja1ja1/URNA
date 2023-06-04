@@ -1,0 +1,289 @@
+#bt-back{
+    background-color: #fff;
+    cursor:pointer;
+    position:relative;
+    border: none;
+    top: 6px;
+    left: -509px;
+    border-radius: 15px;
+    height: 51px;
+    width: 62px;
+    text-align: center;
+}
+#logo{
+    width: 171px;
+    height: 79px;
+}
+#cab{
+    display: flex;
+    justify-content: center;   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;    
+    padding: 3px;
+    color: #fff;
+}
+#corpo{
+    position: relative;
+    background-color: rgb(71, 71, 145);
+    border-radius: 10px;
+    padding: 35px;
+    top: 90px;
+    left: 33%;
+}
+
+#rod{
+    position: fixed;
+    background-color: black;
+    text-align: right;
+    /*padding: 3px;*/
+    color: #fff;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+}
+#body-cad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, cyan, yellow);
+    width: 92vw;
+    
+    height: 100vh;
+}
+#lab-cad{
+    color: #fff;
+    font-size: x-large;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.bt-cad{
+    margin-top: 20px;
+    margin-left: 1px;
+    width: 316px;
+    height: 30px;
+    font-size: x-large;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+.inp-cad{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 301px;
+    height: 22px;
+    background-color: #fff;
+    color:black;
+    
+}
+.inp-dados{
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 301px;
+    height: 22px;
+    background-color: #fff;
+    color:black;
+    background-color: dodgerblue;
+}
+#corpo-cad{
+    position: relative;
+    background-color: black;
+    display: inline-grid;
+    border-radius: 10px;
+    padding: 20px;
+    /*top: 100px;
+    left: 33%;*/
+}
+/*************************************************************************************/
+#corpo-log{
+    position: relative;
+    background-color: rgb(71, 71, 145);
+    border-radius: 10px;
+    padding: 35px;
+    top: 200px;
+    /*left: 33%;*/
+}
+.bt-log{
+    margin-top: 20px;
+    width: 81px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+.inp-log{
+    width: 270px;
+    height: 19px;
+}
+/*************************************************************************************/
+.bt-pi{
+    display: block;
+    margin-bottom: 30px;
+    font-size: x-large;
+    border: none;
+    border-radius: 15px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 14px 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+#bt-saida{
+    background-color: red;
+    cursor:pointer;
+    border: none;
+    
+}
+#corpo-PI{
+    position: relative;
+    background-color: black;
+    border-radius: 10px;
+    padding: 14px;
+    /*top: 113px;
+    left: 33%;*/
+    width: 357px;
+    border-radius: 24px;
+}
+/**********************************************************************************/
+
+#urna{
+    display: flex;
+    background-color: silver;
+    padding: 10px;
+    position: relative;
+    /* left: 81px; */
+    top: -35px;
+}
+.bt-num{
+    width: 73px;
+    height: 52px;
+    font-size: xx-large;
+    margin-left: 12px;
+}
+.bt-num0{
+    width: 73px;
+    height: 52px;
+    font-size: xx-large;
+    margin-left: 109px;
+}
+.bt-click{
+    width: 94px;
+    height: 48px;
+    font-size: smaller;
+}
+#visor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #000;
+    width: 645px;
+    height: 300px;
+}
+.numV{
+    position: relative;
+    text-align: center;
+    border: 2px solid #000;
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+    margin: 5px;
+}
+#branco{
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    overflow-wrap:break-word;
+    font-size: 80px;
+    width: 600px;
+    height: 300px;
+}
+#nulo{
+    display: none;
+    background-color: #fff;
+    z-index: 20;
+    position: absolute;
+    text-align: center;
+    overflow-wrap:break-word;
+    font-size: 80px;
+    width: 600px;
+    height: 300px;
+}
+#Corrigir {
+    background-color: #ff4500;
+}
+
+#Confirmar {
+
+    background-color: #008000;
+}
+
+.cinza {
+    font-size: x-large;
+    text-align: center;
+    width: 20px;
+    height: 80px;
+
+}
+
+/**********************************************************************************************************/
+#body-cand{
+    margin: 0;
+    background-color: rgb(255, 255, 71);
+}
+#num{
+    position: absolute;
+    right: 214px;
+    top: 159px;
+}
+#num-vis{
+    background-color: #fff;
+    width: 89px;
+    height: 81px;
+    border-radius: 10px;
+}
+#n-string{
+    font-size: 20px;
+    margin-left: 9px;
+}
+
+#Visorcand{
+    display: flex;
+    position:fixed;
+    justify-content: center;
+    z-index: 9999;
+    padding: 10px;
+    background-color: #f57119;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 1041px;
+    height: 139px;
+    bottom: 13px;
+}
+.candidatos{
+    display: block;
+    text-align: center;
+    width: 165px;
+    height: 142px;
+    background-color: #807575;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+}
